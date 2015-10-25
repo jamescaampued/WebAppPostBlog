@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Post Blog</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<center><h1>POST BLOG</h1></center>
+<script type="text/javascript" src = "style.js"></script> 
+<body>
+	<div>
+		<label> Title: </label>
+	</div>
+	<div>
+		<input type= 'text' name = 'name' id = 'input_title' size = '45'>
+		</div>
+		<div>
+		<label> Author: </label>
+	</div>
+	<div>
+		<input  type= 'text' id='input_firstname' placeholder ='Firstname' size = '25'>
+		<input  type= 'text' id='input_middlename' placeholder ='Middlename' size = '25'>
+		<input  type= 'text' id='input_lastname' placeholder ='Lastname' size = '25'>
+	</div>
+	<div>
+		<label> Content: </label>
+	</div>
+	<div>
+		<textarea name='name' id='input_content' placeholder = 'Comment. . .' rows="5" cols="45"></textarea>
+    </div>
+	<button onclick = 'postBlog()'> Submit </button>
+	<h1 id="displayTitle"></h1>
+	<h1 id="displayName"></h1>
+	<h1 id="displayContent"></h1>
+</body>
+</html>

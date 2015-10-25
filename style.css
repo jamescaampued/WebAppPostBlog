@@ -1,0 +1,13 @@
+ h1{
+	color:white;
+	font-family: "Georgia";
+	background-color: yellowgreen;
+	text-shadow: left;
+}
+body{
+	background-image: url("grass.jpg");
+}
+label{
+	color:yellowgreen;
+	font-family: "Georgia";
+}
